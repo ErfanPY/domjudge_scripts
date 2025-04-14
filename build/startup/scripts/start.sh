@@ -33,7 +33,7 @@ mysqlPassword=$(generate_randomPassword)
 read -p "Please input the number of judge hosts: " judgehost_number
 
 # Get the port for DOMjudge server from the user
-read -p "Please input the port for DOMjudge server: " domserver_port
+read -p "Please input the port for DOMjudge server (3000 is recommended): " domserver_port
 
 # Start MariaDB container
 echo "Starting MariaDB container..."
